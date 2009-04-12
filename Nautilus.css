@@ -103,9 +103,9 @@ php keyword.constant.echo,
 php keyword.constant.print { color: #815DB3; font-weight: normal; }
 
 php keyword.constant.other,
+php literal.keyword.nothing,
 php literal.escape,
-php literal.keyword.bool,
-php literal.keyword.nothing { color: #A4ED2D; }
+php literal.keyword.bool { color: #A4ED2D; }
 
 php keyword.constant.core,
 php keyword.constant.std { color: #06960E; }
