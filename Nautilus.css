@@ -90,7 +90,7 @@ php > container.block identifier.function,
 php > identifier.function,
 php > identifier.function delimiter.parenthesis,
 php > identifier.function identifier.function,
-php > identifier.function name { color: #FFFFFF; font-weight: normal; }
+php > identifier.function name { color: #B2B2B2; font-weight: normal; }
 
 php identifier.variable,
 php identifier.variable delimiter,
