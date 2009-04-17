@@ -71,9 +71,11 @@ css punctuation { color: #FFFFFF; }
 js support.constant { color: #06960E; }
 js constant.numeric { color: #D70000; }
 
-js function { color: #FFFFFF; }
+js function,
+js storage.type { color: #FFFFFF; }
 js function name { color: #FFCA00; }
-js function.dom { color: #815DB3; }
+js function.dom,
+js support.function { color: #815DB3; }
 
 /* PHP */
 php comment.phpDoc { color: #00A6FF; }
@@ -90,7 +92,8 @@ php > container.block identifier.function,
 php > identifier.function,
 php > identifier.function delimiter.parenthesis,
 php > identifier.function identifier.function,
-php > identifier.function name { color: #B2B2B2; font-weight: normal; }
+php > identifier.function name,
+php > identifier.function.support identifier.function name { color: #B2B2B2; font-weight: normal; }
 
 php identifier.variable,
 php identifier.variable delimiter,
@@ -98,6 +101,8 @@ php identifier.variable operator.dollar-sign,
 php identifier.variable property.name { color: #0068C5; }
 
 php > identifier.function.support name,
+php > identifier.function.support_pcre name,
+php > identifier.function.support identifier.function.support name,
 php keyword.definition.array,
 php keyword.constant.echo,
 php keyword.constant.print { color: #815DB3; font-weight: normal; }
